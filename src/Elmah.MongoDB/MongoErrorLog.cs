@@ -132,7 +132,7 @@ namespace Elmah
 				}
 
 				_collection = database.GetCollection(_collectionName);
-				_mongoInsertOptions = new MongoInsertOptions { CheckElementNames = false };
+				_mongoInsertOptions = new MongoInsertOptions();
 			}
 		}
 
